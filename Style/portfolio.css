@@ -37,6 +37,11 @@ nav li{
 .text-primary{
     color: orange;
 }
+.resume-btn{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 .btn-primary{
     height: 40px;
     border: 0;
@@ -139,4 +144,51 @@ section{
 .skill-description{
     font-size: 13px;
     color: gray;
+}
+/* resume style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(29, 28, 28, 0.973);
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+}
+.description{
+    color: gray;
+    font-size: 12px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* contact style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"] , textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 40px;
+}
+.contact a{
+    text-decoration: none;
+    word-spacing: 18px;
 }
